@@ -1,6 +1,9 @@
 *{
   box-sizing:border-box;
 }
+h1{
+  text-align:center;
+}
 p{
   background-color: powderblue;
   border: 1px solid black;
@@ -21,4 +24,7 @@ p{
     @media (max-width: 767px){
       .small{
         width:100%}
+}
+div{
+  float:right;
 }
