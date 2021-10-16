@@ -1,3 +1,6 @@
+*{
+  box-sizing:border-box;
+}
 p{
   background-color: powderblue;
   border: 1px solid black;
@@ -7,4 +10,15 @@ p{
   font-family:Helvetica;
 }
 
-@media (min-width: 992px)
+@media (min-width: 992px){
+  .large{
+    width: 33.33%;}
+  }
+  @media (min-width: 768px) and (max-width: 991px){
+    .medium{
+      width:50%;}
+    }
+    @media (max-width: 767px){
+      .small{
+        width:100%}
+}
