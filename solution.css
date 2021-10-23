@@ -1,17 +1,28 @@
 *{
   box-sizing:border-box;
+  font-family: Helvetica;
 }
 h1{
   text-align:center;
 }
 p{
-  background-color: powderblue;
+  background-color: DodgerBlue;
+  margin: 10px;
   border: 1px solid black;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family:Helvetica;
-}
+  padding: 40px 15px 15px 15px;
+  }
+h2{
+   float: right;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin: 0;
+    width: 230px;
+    text-align: center;
+    font-style: Times;
+    font-size: 24px;
+    font-weight: bold;
+    height: 45px;
+  padding-top: 10px;}
 
 @media (min-width: 992px){
   .large{
@@ -20,11 +31,10 @@ p{
   @media (min-width: 768px) and (max-width: 991px){
     .medium{
       width:50%;}
+    .medium2{
+      width:100%;}
     }
     @media (max-width: 767px){
       .small{
-        width:100%}
-}
-div{
-  float:right;
+        width:100;}
 }
