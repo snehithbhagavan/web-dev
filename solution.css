@@ -2,39 +2,46 @@
   box-sizing:border-box;
   font-family: Helvetica;
 }
+section{
+  margin: 10px;
+  border: 1px solid black;
+}
 h1{
   text-align:center;
 }
 p{
-  background-color: DodgerBlue;
-  margin: 10px;
-  border: 1px solid black;
-  padding: 40px 15px 15px 15px;
+  background-color: lightblue;
+  margin: 0;
+  padding: 50px 15px 15px 15px;
   }
 h2{
    float: right;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     margin: 0;
-    width: 230px;
+    width: 200px;
     text-align: center;
-    font-style: Times;
-    font-size: 24px;
-    font-weight: bold;
-    height: 45px;
-  padding-top: 10px;}
+    height: 40px;
+  padding-top: 5px;}
+.a{background-color: lightgreen;}
+.b{background-color: lightpink;}
+.c{background-color: gold;}
 
 @media (min-width: 992px){
   .large{
-    width: 33.33%;}
+    width: 33.33%;
+  float: left;}
   }
   @media (min-width: 768px) and (max-width: 991px){
     .medium{
-      width:50%;}
+      width:50%;
+    float: left;}
     .medium2{
-      width:100%;}
+      width:100%;
+    float: left;}
     }
     @media (max-width: 767px){
       .small{
-        width:100;}
+        width:100;
+      float: left;}
 }
